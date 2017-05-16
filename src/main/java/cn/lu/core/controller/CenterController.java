@@ -1,4 +1,4 @@
-package cn.lu.core.conttoller;
+package cn.lu.core.controller;
 
 import org.springframework.stereotype.Controller;
 
