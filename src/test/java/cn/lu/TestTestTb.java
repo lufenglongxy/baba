@@ -12,10 +12,9 @@ public class TestTestTb extends SpringJunitTest{
 	@Autowired
 	private TestTbService testTbService;
 	@Test
-	public void testAdd() throws Exception {
+	public void testAdd(){
 		TestTb testTb = new TestTb();
-//		testTb.setName("金乐乐");
-		testTb.setName(new String("金乐乐".getBytes(), "UTF-8"));
+		testTb.setName("金乐乐");
 
 		testTbService.addTestTb(testTb);
 	}
